@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>TeamCity Build Notification Receiver</title>
+
+  <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+  <script src="app.js"></script>
+
+  <style type="text/css">
+    body {
+      padding: 20px;
+    }
+    .mdl-textfield {
+      width: 500px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <h4>TeamCity Build Notification Receiver</h4>
+
+  <div>
+    <input type="text" id="senderId" value="1065076768565"/>
+    <label for="senderId">Sender ID (Project ID)</label>
+  </div>
+
+  <div>
+    <input type="text" id="stringIdentifier" />
+    <label for="stringIdentifier">String Identifier (Optional)</label>
+  </div>
+
+  <div>
+    <div>
+      <button id="register">Register</button>
+    </div>
+    <div>
+      <button id="unregister">Unregister</button>
+    </div>
+  </div>
+
+  <div>
+    <label for="appServerStatus">App Server Registration Status</label>
+    <textarea type="text" id="appServerStatus" rows="2" cols="65"></textarea>
+  </div>
+
+  <div >
+    <label for="status">GCM Registration Status</label>
+    <textarea type="text" id="status" rows="5" cols="65"></textarea>
+  </div>
+
+  <!-- <div>
+    <textarea  type="text" id="message" rows="5" cols="65"></textarea>
+    <label for="message">Message Received</label>
+  </div> -->
+
+</body>
+
+</html>
