@@ -1,6 +1,6 @@
 ﻿node server.js
 
-GET: localhost:8484/app/index.html
+GET: localhost:8484/index.html
 
 get regToken from the console and use it to post to gcm
 
