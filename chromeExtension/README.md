@@ -1,8 +1,10 @@
-﻿node server.js
+Load unpacked extension
+click on the extension button
+[update senderId ProjectId]
+Subscribe
 
-GET: localhost:8484/app/index.html
+copy regtoken from "GCM Registration Status".
 
-get regToken from the console and use it to post to gcm
 
 POST https://gcm-http.googleapis.com/gcm/send
 headers:
@@ -10,7 +12,7 @@ Authorization:key=AIzaXXXXXXXXXXXXXXXXXXX
 Content-Type:application/json
 
 {
-  "to" : "dv0RO8efCmk:APA91bFDZiNKp5r5FC68B7Y_EMUM-CakAKnxXXXXXXXXXXXXXXXXXXXXXXXX",
+  "to" : "dv1237598237592 your regtoken",
   "data" : {
     "message": "a message"
   }
