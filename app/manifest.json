@@ -1,4 +1,4 @@
 {
   "name": "Push Notifications",
-  "gcm_sender_id": "1065076768565"
+  "gcm_sender_id": "your_gcm_sender_id"
 }
